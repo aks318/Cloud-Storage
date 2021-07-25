@@ -25,3 +25,5 @@
     6. /StorageManagement
 
 ## Please Switch to Mobile mode.
+
+Netlify Link : https://cloud-storage-aakash.netlify.app/
