@@ -1,0 +1,76 @@
+.folderDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7fc;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.folderTextDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 0 20px;
+
+}
+
+.folderText{
+    padding-top: 0px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.search{
+    height: 44px;
+    width: 305px;
+    margin-left: 35px;
+    background-color: #edf1fa;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    color: #959fba;
+
+}
+
+.fileFolder{
+    border-bottom: 2px solid #d3d7e0;
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.fileHeaderDiv{
+    width: 135px;
+    margin: 0 20px 0 35px;
+    cursor: pointer;
+}
+
+.folderHeaderDiv{
+    width: 135px;
+    margin: 0 35px 0 20px;
+    cursor: pointer;
+}
+
+.fileFolderP{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #959fba;
+    text-align: center;
+}
+
+.folderOpen{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap : 10px;
+    height : 245px;
+    overflow: auto;
+
+}

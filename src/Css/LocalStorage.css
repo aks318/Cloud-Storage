@@ -1,0 +1,32 @@
+.StorageIcon2{
+    height: 52px;
+    width: 305px;
+    margin: 0px 35px 30px 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.StorageIcon2Text{
+    padding-top: 0;
+    height: 52px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.search{
+    height: 44px;
+    width: 305px;
+    background-color: #edf1fa;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    color: #959fba;
+
+}
+
